@@ -19,3 +19,21 @@
     height: 30px;
     border: 1px solid black;
 }
+
+.background-aqua {
+    background-color: rgb(59, 211, 160);
+    height: 350px;
+}
+
+.background-brown {
+    background-color: brown;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.background-pink {
+    background-color: pink;
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
