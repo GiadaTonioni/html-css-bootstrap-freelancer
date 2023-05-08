@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-blu {
+    background-color: rgb(1, 1, 29);
+    height: 50px;
+}
+
+.background-green {
+    background-color: green;
+    height: 40px;
+}
+
+.background-yellow {
+    background-color: yellow;
+    height: 30px;
+    border: 1px solid black;
+}
