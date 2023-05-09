@@ -200,3 +200,11 @@ footer {
     margin-top: 20px;
 }
 
+.under {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+}
+
