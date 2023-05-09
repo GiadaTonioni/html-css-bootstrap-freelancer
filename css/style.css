@@ -149,12 +149,13 @@ button {
     margin-bottom: 40px;
 }
 
-.button-blu {
+.button_blu {
     background-color: rgb(59, 211, 160);
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 .section-2 {
@@ -194,3 +195,8 @@ footer {
 .content-footer {
     padding: 20px;
 }
+
+.textarea {
+    margin-top: 20px;
+}
+
