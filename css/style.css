@@ -37,7 +37,8 @@
 
 .background-light-blu {
     background-color: rgb(68, 106, 150);
-    height: 100px;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .background-orange {
@@ -72,7 +73,7 @@
 }
  
 .content-jumbo img {
-    width: 45%;
+    width: 150px;
     margin-bottom: 20px;
 }
 
@@ -140,6 +141,11 @@
 
 .txt-white {
     color: white;
+    font-size: 15px;
+}
+
+.center {
+    text-align: center;
 }
 
 .cont-button {
@@ -171,4 +177,19 @@ button {
 
 .cont-send {
     margin-top: 70px;
+}
+
+.cont-bottom {
+    margin: 25px 0;
+}
+
+.sezione-4 i {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 5px;
+}
+
+.txt-green {
+    color: rgb(59, 211, 160);;
 }
