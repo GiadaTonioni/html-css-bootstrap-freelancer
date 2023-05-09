@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .background-blu {
-    background-color: rgb(1, 1, 29);
-    height: 50px;
+    background-color: rgb(67, 67, 109);
+    height: 60px;
 }
 
 .background-green {
@@ -22,7 +26,7 @@
 
 .background-aqua {
     background-color: rgb(59, 211, 160);
-    height: 350px;
+    height: 400px;
 }
 
 .background-brown {
@@ -31,15 +35,8 @@
     border: 1px solid black;
 }
 
-.background-pink {
-    background-color: pink;
-    height: 250px;
-    border-radius: 15px;
-    border: 1px solid black;
-}
-
 .background-light-blu {
-    background-color: lightblue;
+    background-color: rgb(68, 106, 150);
     height: 100px;
 }
 
@@ -51,4 +48,127 @@
 
 .background-grey {
     background-color: grey;
+}
+
+.content-header {
+    color: white;
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+.content-header-right {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+
+.content-header-right li {
+    list-style-type: none;
+    display: inline;
+    margin: 15px;
+}
+ 
+.content-jumbo img {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.content-jumbo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    color: white;
+    
+}
+
+.content-jumbo h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.line {
+    border: 1px solid white;
+}
+
+.line-blu {
+    border: 2px solid rgb(67, 67, 109);
+    border-radius: 3px;
+    width: 40%;
+    position: relative;
+}
+
+.riga {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.riga i {
+    font-size: 30px;
+}
+
+.content-title h2{
+    color: rgb(25, 25, 41);
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.content-title-white h2{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.bianco {
+    color: white;
+}
+
+.txt-white {
+    color: white;
+}
+
+.cont-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.button-blu {
+    background-color: rgb(59, 211, 160);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.section-2 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.cont-send {
+    margin-top: 70px;
 }
