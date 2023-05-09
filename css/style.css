@@ -140,7 +140,7 @@
     margin-top: 40px;
 }
 
-button {
+.button_white {
     background-color: transparent;
     color: white;
     border: 1px solid white;
