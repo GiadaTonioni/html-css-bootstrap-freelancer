@@ -10,29 +10,16 @@
 
 .background-blu {
     background-color: rgb(67, 67, 109);
-    height: 60px;
 }
 
 .background-aqua {
     background-color: rgb(59, 211, 160);
 }
 
-.background-brown {
-    background-color: brown;
-    height: 80px;
-    border: 1px solid black;
-}
-
 .background-light-blu {
     background-color: rgb(68, 106, 150);
     width: 100%;
     margin-top: 50px;
-}
-
-.background-orange {
-    background-color: orange;
-    height: 60px;
-    border: 1px solid black;
 }
 
 .content-header {
@@ -76,25 +63,33 @@
     text-align: center;
 }
 
-.line {
-    border: 1px solid white;
+.riga-b::before, .riga-b::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(25, 25, 41);
+    vertical-align: middle;
 }
 
-.line-blu {
-    border: 2px solid rgb(67, 67, 109);
-    border-radius: 3px;
-    width: 40%;
-    position: relative;
+.riga-w::before, .riga-w::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    vertical-align: middle;
 }
 
-.riga {
+.riga-b, .riga-w {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.riga i {
-    font-size: 30px;
+.riga-w i {
+    color: white;
+    margin: 0 8px;
 }
 
 .content-title h2{
@@ -208,3 +203,7 @@ footer {
     border-radius: 0;
 }
 
+.navbar a {
+    font-weight: 600;
+    color: white;
+}
